@@ -1,0 +1,60 @@
+/*
+Main files where load all the rest files
+*/
+.l-second-section{
+    overflow-x: scroll;
+    @include tablet{
+        overflow: unset;
+    }
+}
+
+
+.l-flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.l-flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.l-bg-center{
+    background-position: center;
+}
+
+.l-bg-contain{
+    background-size: contain;
+}
+
+.l-bg-cover{
+    background-size: cover;
+}
+
+.l-shadow{
+    -webkit-box-shadow: 5px 5px 14px -5px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: 5px 5px 14px -5px rgba(0, 0, 0, 0.29);
+    box-shadow: 5px 5px 14px -5px rgba(0, 0, 0, 0.29);
+}
+
+/*---Margins---*/
+.l-margin-x-10{
+    margin: 0 15%;
+}
+
+/*---Widths---*/
+
+.l-width-4{
+    width: calc(100% / 4);
+}
+
+/*---gaps--*/
+
+.l-gap-c-2{
+    column-gap: 2%;
+}
+
+.l-gap-r-10{
+    row-gap: 10%;
+}
